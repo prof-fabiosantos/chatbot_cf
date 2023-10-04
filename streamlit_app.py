@@ -24,4 +24,4 @@ if st.button("Enviar"):
     st.write(result)
 
 # Nota explicativa
-st.markdown("*Certifique-se de que o modelo Gradio e o servidor estejam em execução antes de usar esta interface.*")
+st.markdown("*Desenvolvido por Prof.Dr.Fabio Santos (fssilva@uea.edu.br)*")
