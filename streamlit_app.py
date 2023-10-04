@@ -1,9 +1,12 @@
 import streamlit as st
+from PIL import Image
 from gradio_client import Client
 
+image = Image.open('cf.png')
+
 # Título da aplicação Streamlit
-st.title("Chatbot da Constituição Federal do Brasil")
-st.image('https://sindicolegal.com/wp-content/uploads/2019/03/294x500-4.png', caption='Constituição', width=300, height=200)
+st.title("Chatbot da Constituição do Brasil")
+st.image('cf.png', caption='Constituição')
 
 # Criar um campo de entrada de texto para a pergunta
 question = st.text_input("Digite sua pergunta:")
