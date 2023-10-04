@@ -3,6 +3,7 @@ from gradio_client import Client
 
 # Título da aplicação Streamlit
 st.title("Chatbot da Constituição Federal do Brasil")
+st.image('https://sindicolegal.com/wp-content/uploads/2019/03/294x500-4.png', caption='Constituição', width=300, height=200)
 
 # Criar um campo de entrada de texto para a pergunta
 question = st.text_input("Digite sua pergunta:")
